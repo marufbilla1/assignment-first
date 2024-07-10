@@ -15,6 +15,10 @@
     align-items: center;
 }
 
+/* main{
+    width: 1140px;
+} */
+
 .header-content {
     width: 900px;
     height: 550px;
@@ -66,13 +70,15 @@
 
 /* header section styles end */
 
+/* why webdevelopment section styles starts here */
+
 .why-webdevelopment {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1000px;
     height: 1100px;
-    margin: 0 auto;
+    margin: 100px auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
@@ -113,7 +119,6 @@
     border-radius: 5px;
     background-color: rgb(236, 235, 235);
     padding: 0px 10px;
-    /* background-color: white; */
 }
 
 .why-webdevelopment-box-content-title {
@@ -145,4 +150,179 @@
     line-height: 23px;
     background-color: white;
     border: none;
+}
+
+/* why web development section styles end */
+
+/* video section style starts here */
+
+.video {
+    width: 1000px;
+    height: 700px;
+    margin: 50px auto;
+}
+
+.video-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.video-content-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+}
+
+.video-content-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.video-content-video {
+    width: 1000px;
+}
+
+.video-content-video iframe {
+    border-radius: 5px;
+}
+
+/* video section styles end  */
+
+/* target section styles start here */
+
+.target {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.target-title {
+    text-align: center;
+    font-family: Azeret Mono;
+    margin-bottom: 15px;
+}
+
+.target-description {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Azeret Mono;
+    line-height: 25px;
+}
+
+.target-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 200px;
+    gap: 10px;
+
+}
+
+.target-content img {
+    margin-bottom: 8px;
+}
+
+.target-content h4 {
+    margin-bottom: 8px;
+    font-family: Azeret Mono;
+}
+
+.target-content p {
+    margin-bottom: 10px;
+    line-height: 15px;
+    font-family: Azeret Mono;
+}
+
+.target-content a {
+    color: black;
+    font-family: Azeret Mono;
+}
+
+#target-content-item1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding-top: 12px;
+    padding-left: 18px;
+}
+
+#target-content-item2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding-top: 12px;
+    padding-left: 18px;
+}
+
+#target-content-item3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding-top: 10px;
+    padding-left: 18px;
+}
+
+/* target section styles end */
+
+/* support section styles start here */
+
+.support {
+    background-image: url("assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 100px auto;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.support-title {
+    margin-bottom: 20px;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-description {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    opacity: 0.7;
+    margin-bottom: 35px;
+}
+
+.text {
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.submit {
+    width: 80px;
+    padding: 10px 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* support section styles end */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px 32px 150px;
+    height: 20px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
 }
