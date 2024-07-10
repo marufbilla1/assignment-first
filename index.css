@@ -326,3 +326,15 @@
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
 }
+
+.footer-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-images {
+    display: flex;
+    gap: 20px;
+}
